@@ -93,7 +93,7 @@ body {
     background: url(/images/illustration-woman-online-desktop.svg);
     height: 100%;
     background-repeat: no-repeat;
-    background-position: 120% center;
+    background-position: right -20% center;
   }
   
   .box {
@@ -116,7 +116,7 @@ body {
       background: url("./images/bg-pattern-mobile.svg");
       background-repeat: no-repeat;
       background-position: center 590%;
-    } */
+    }
   
      .image__wrapper_inner {
       position: absolute;
@@ -127,9 +127,10 @@ body {
       top: -129%;
     } 
      .box {
-      width: 55px;
-      left: 19%;
-      top: -30%;
+      width: 100px;
+      position: relative;
+      top: -55%;
+      left: 13%;
     }
     .accordion {
       margin-top: 0px;
